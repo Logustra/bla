@@ -1,0 +1,17 @@
+{
+  "name": "workflowWithSassAndGrunt",
+  "description": "Learning Sass and Grunt",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Logustra/workflowWithGruntAndSass.git"
+  },
+  "author": "Faizal Andyka",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-postcss": "^0.8.0",
+    "matchdep" : "^1.0.1"
+  }
+}
