@@ -13,12 +13,8 @@ This is the repository for learning sass and grunt
 3. CD to the folder cd `workflowWithSassAndGrunt`
 4. Run `npm-install` to install the project dependencies
 5. Install grunt.js via the linux terminal or Gitbash on a PC `npm install -g grunt-cli`
-5. Run the Grunt command `grunt-contib-watch`
+5. Run the Grunt command `grunt`
 
-# Setting Command grunt-contrib-watch to grunt
-1. Open gruntfile.js and paste this code inside `module.exports` : `grunt.registerTask ('default', 'watch');`
-2. Now, run the Gruntp command `grunt` 
-	
 
 
 
