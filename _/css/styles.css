@@ -1,12 +1,8 @@
-body {
-
-}
-
-
-#owl-demo .item{
+#owl-demo .item {
   margin: 3px;
 }
-#owl-demo .item img{
+
+#owl-demo .item img {
   display: block;
   width: 30%;
   height: auto;

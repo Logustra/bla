@@ -6,12 +6,11 @@
     "url": "https://github.com/Logustra/workflowWithGruntAndSass.git"
   },
   "author": "Faizal Andyka",
-  "dependencies": {
+  "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-uglify": "^2.0.0",
-    "grunt-postcss": "^0.8.0",
-    "matchdep" : "^1.0.1"
+    "grunt-autoprefixer": "^3.0.4"
   }
 }

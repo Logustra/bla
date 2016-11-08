@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAKA,eAAe;EACb,MAAM,EAAE,GAAG;;;AAEb,mBAAmB;EACjB,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI",
+"sources": ["file:///home/crow/Documents/workflowWithSassAndGrunt/_/components/sass/_base.scss"],
+"names": [],
+"file": "styles.css"
+}
