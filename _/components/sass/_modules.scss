@@ -1,0 +1,253 @@
+.home {
+  @include bgimg("../images/bg-home.jpeg");
+  min-height: 620px;
+  transition: background 1s ease-in-out;
+
+  .caption {
+    padding-top: 85px;
+    h2 {
+      text-align: left;
+      font-size: 7rem;
+      font-weight: bold;
+      color: $color-main;
+      width: 50%;
+    }// caption
+
+    p {
+      width: 75%;
+      padding-top: 200px;
+      padding-bottom: 20px;
+      font-size: 3rem;
+      font-family: $font-secondary;
+      color: $color-secondary;
+    }// p
+  }// caption
+}// home
+
+.navigation {
+  background-color: $blue;
+  border-radius: 0;
+  border-top: 10px solid $red;
+  margin: 0;
+  color: $white;
+
+
+  ul {
+    padding: 15px 80px;
+    margin-bottom: 0;
+    list-style-type: none;
+
+    li {
+      padding: 21.4px 0;
+      display: inline;
+
+      &:hover {
+        background-color: $red;
+      }// li
+
+      a {
+        padding: 0 15px;
+        font-size: 2rem;
+        font-family: $font-third;
+        font-weight: 300;
+        color: $white;
+        text-decoration: none;
+      }// a
+
+      i {
+        padding-right: 6px;
+        color: yellow;
+      }// i
+    }// li
+  }// ul
+}// navigation
+
+.discussionslist {
+  background-color: $purple;
+  border-bottom: 10px solid $yellow;
+
+  .container {
+    padding: 50px 130px;
+
+    .discussions {
+      margin: 40px 0;
+      text-align: center;
+
+      img {
+        padding: 15px 15px;
+        background-color: $white;
+        border-radius: 50%;
+        width: 170px;
+      }// img
+
+      p {
+        margin-top: 15px;
+        font-size: 1.8rem;
+        color: $white;
+      }// p
+    }// discussions
+  }// container
+}// discussionslist
+
+.whatisgdg {
+  border-bottom: 10px solid $green;
+
+  .container {
+    padding: 100px;
+
+    h2 {
+      text-align: left;
+      font-size: 3.8rem;
+    }// h2
+
+    p {
+      font-size: 2.3rem;
+      font-family: $font-primary;
+      font-weight: 300;
+    }// p
+  }// container
+}// whatisgdg
+
+.speakerslist {
+  background-color: $red;
+  border-bottom: 10px solid $blue;
+
+  .container {
+    padding: 50px;
+
+    h2 {
+      font-size: 3.6rem;
+      color: $white;
+    }
+
+    .speakers {
+      font-family: $font-primary;
+      background-color: $white;
+      padding: 40px 0;
+      margin-bottom: 30px;
+      border-radius: 50px 0 50px 0;
+
+
+      img {
+        width: 190px;
+        border: 6px solid $blue;
+        border-radius: 50%;
+        transition: border .2s ease-in-out;
+
+        &:hover {
+          border: 9px solid $blue;
+        }
+      }// img
+
+      h3 {
+        font-weight: bold;
+        color: $color-main;
+      }
+
+      p {
+        font-weight: 300;
+        line-height: 0;
+        text-align: center;
+      }
+    }// speakers
+  }// container
+}// speakerslist
+
+.organization {
+
+  .container {
+    padding: 20px 0;
+    margin-left: 40px;
+
+    ul {
+
+      li {
+        display: inline-block;
+
+        img {
+          width: 185px;
+        }// img
+      }// li
+    }// ul
+  }// container
+}// organization
+
+.photoCarousel {
+  border-bottom: 10px solid $red;
+
+  .carousel-indicators {
+
+    .active {
+      background-color: $blue;
+    }// active
+  }// carousel-indicators
+
+  .carousel-inner {
+
+    img {
+      height: 400px;
+    }// img
+  }// carousel-inner
+}// photoCarousel
+
+.vunuePartnersList {
+
+  .container {
+    padding: 50px ;
+
+    .vunuePartners {
+      margin-left: 90px;
+
+      li {
+        display: inline-block;
+        list-style-type: none;
+
+        img {
+          padding: 0 10px;
+          width: 100px;
+        }// img
+      }// li
+    }// vunuePartners
+  }// container
+}// vunuePartnersLis
+
+.mediaPartner {
+
+  .container {
+    padding-bottom: 50px;
+
+    img {
+      width: 300px;
+    }// img
+  }// container
+}// mediaPartner
+
+footer {
+  border-top: 10px solid $yellow;
+  background-color: $blue;
+
+  .container {
+    padding: 15px;
+
+    .socialMedia {
+      float: left;
+    }// socialMedia
+
+    p {
+      padding-top: 6px;
+      font-size: 1.7rem;
+      font-family: $font-primary;
+      text-align: center;
+      color: $white;
+
+      span {
+        float: right;
+
+        a {
+          color: $white;
+          text-decoration: none;
+        }
+      }// span
+    }// p
+  }// container
+}// footer
