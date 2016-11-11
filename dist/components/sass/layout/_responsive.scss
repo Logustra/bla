@@ -1,0 +1,173 @@
+$xxsmall: 320px;
+$xsmall: 480px;
+$small: 768px;
+$medium: 992px;
+$large: 1200px;
+$mydesktop: 1280px;
+
+.navigation {
+
+  .navbar-header {
+    @media screen and (max-width: 1199px) {
+      float: none;
+      padding-bottom: 15px
+    }
+
+    .navbar-brand {
+
+      img {
+        @media screen and (max-width: 1199px) {
+          display: block;
+          width: 190px;
+        }
+      }// img
+    }// navbar-brand
+
+    .navbar-toggle {
+      @media screen and (max-width: 1199px) {
+        display: block;
+        margin-top: 20px;
+      }
+    }// navbar-toggle
+  }// navbar-header
+
+  .navbar-collapse {
+    @media screen and (max-width: 1199px) {
+      border-top: 1px solid $white;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+  }// navbar-collapse
+
+  .navbar-collapse.collapse {
+    @media screen and (max-width: 1199px) {
+       display: none!important;
+    }
+  }// collapse
+
+  .collapse.in {
+    @media screen and (max-width: 1199px) {
+       display: block!important;
+    }
+  }// collapse.in
+
+
+  ul {
+    @media screen and (min-width: $xxsmall) {
+      padding: 25px 0;
+    }
+    @media screen and (min-width: $large) {
+      padding: 20px 35px;
+    }
+
+    li {
+      @media screen and (min-width: $xxsmall) {
+        display: block;
+        padding: 0;
+      }
+      @media screen and (min-width: $large) {
+        display: inline;
+        padding: 21.4px 0;
+      }
+
+      &:hover {
+        @media screen and (min-width: $xxsmall) {
+          background-color: transparent;
+        }
+        @media screen and (min-width: $large) {
+          background-color: $red;
+        }
+      }// li hover
+    }// li
+  }// ul
+}// navigation
+
+.whatisgdg {
+
+  .container {
+
+    .col-sm-12 {
+
+      &:nth-child(1) {
+        @media screen and (min-width: $xsmall) {
+          padding-bottom: 30px;
+        }
+        @media screen and (min-width: $small) {
+          padding-bottom: 0;
+        }
+      }// nth-child
+    }// columns
+  }//container
+}//whatisgdg
+
+.organization {
+
+  .container {
+    @media screen and (min-width: $xsmall) {
+      margin-left: 20px;
+      padding: 15px 70px;
+    }
+    @media screen and (min-width: $small) {
+      margin-left: 20px;
+      padding: 15px 95px;
+    }
+    @media screen and (min-width: $medium) {
+      margin-left: 20px;
+      padding: 15px 210px;
+    }
+    @media screen and (min-width: $large) {
+      padding: 15px 20px;
+      margin-left: 30px;
+    }
+    @media screen and (min-width: $mydesktop) {
+      padding: 20px 0;
+      margin-left: 55px;
+    }
+
+    .iconOrganization {
+
+      img {
+        @media screen and (min-width: $xsmall) {
+          max-width: 150px;
+        }
+        @media screen and (min-width: $small) {
+          max-width: 180px;
+        }
+        @media screen and (min-width: $mydesktop) {
+          max-width: 190px;
+        }
+      }// img
+    }// iconOrganization
+  }// container
+}// organization
+
+.vunuePartnersList {
+
+  .container {
+
+    .vunuePartners {
+      @media screen and (min-width: $xsmall) {
+        margin: 55px;
+      }
+      @media screen and (min-width: $small) {
+        margin: 75px;
+      }
+    }// vunuePartners
+  }// container
+}// vunuePartnersList
+
+footer {
+
+  .container {
+
+    p {
+      @media screen and (min-width: $xsmall) {
+        padding-top: 10px;
+        font-size: 1.3rem;
+      }
+      @media screen and (min-width: $small) {
+        padding-top: 8px;
+        font-size: 1.5rem;
+      }
+    }// p
+  }// container
+}// footer

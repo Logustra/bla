@@ -1,0 +1,25 @@
+.hero {
+  @include bgimg("../images/bg-home.jpeg");
+  min-height: 620px;
+  transition: background 1s ease-in-out;
+
+  .caption {
+    padding-top: 85px;
+    h2 {
+      text-align: left;
+      font-size: 7rem;
+      font-weight: bold;
+      color: $color-main;
+      width: 50%;
+    }// caption
+
+    p {
+      width: 75%;
+      padding-top: 200px;
+      padding-bottom: 20px;
+      font-size: 3rem;
+      font-family: $font-secondary;
+      color: $color-secondary;
+    }// p
+  }// caption
+}// hero

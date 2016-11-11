@@ -1,0 +1,29 @@
+footer {
+  border-top: 10px solid $yellow;
+  background-color: $blue;
+
+  .container {
+    padding: 15px;
+
+    .socialMedia {
+      float: left;
+    }// socialMedia
+
+    p {
+      padding-top: 6px;
+      font-size: 1.7rem;
+      font-family: $font-primary;
+      text-align: center;
+      color: $white;
+
+      span {
+        float: right;
+
+        a {
+          color: $white;
+          text-decoration: none;
+        }
+      }// span
+    }// p
+  }// container
+}// footer
