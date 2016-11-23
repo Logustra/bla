@@ -1,5 +1,5 @@
 .hero {
-  @include bgimg("../images/bg-home.jpeg");
+  @include bgimg("../builds/images/bg-home.jpeg");
   min-height: 620px;
   transition: background 1s ease-in-out;
 
