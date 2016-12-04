@@ -5,6 +5,16 @@ module.exports = function(grunt){
   grunt.loadNpmTasks("grunt-autoprefixer");
   grunt.loadNpmTasks('grunt-browser-sync');
 
+
+  var sassFiles = [
+    "dist/builds/sass/*.scss",
+    "dist/builds/sass/base/*.scss",
+    "dist/builds/sass/modules/*.scss",
+    "dist/builds/sass/pages/*.scss",
+    "dist/builds/sass/layout/*.scss"
+  ];
+
+
   grunt.initConfig ({
 
     // minify javaScript
@@ -24,7 +34,7 @@ module.exports = function(grunt){
       },//options
       dev: {
         files: {
-          "dist/builds/css/styles.css": ["dist/builds/sass/*.scss", "dist/builds/sass/base/*.scss", "dist/builds/sass/modules/*.scss", "dist/builds/sass/pages/*.scss", "dist/builds/sass/layout/*.scss"]
+          "dist/builds/css/styles.css": [sassFiles]
         }//files
       }//dist
     },//sass
@@ -33,7 +43,6 @@ module.exports = function(grunt){
     autoprefixer: {
       options: {
         browser: ["last 6 versions"],
-        cascade: true
       },
       my_target: {
         src: "dist/builds/css/styles.css",
@@ -48,7 +57,7 @@ module.exports = function(grunt){
         tasks : ["uglify"]
       },//scripts
       sass: {
-        files : ["dist/builds/sass/*.scss", "dist/builds/sass/base/*.scss", "dist/builds/sass/modules/*.scss", "dist/builds/sass/pages/*.scss", "dist/builds/sass/layout/*.scss"],
+        files : [sassFiles],
         tasks : ["sass"]
       },//sass
       html : {
